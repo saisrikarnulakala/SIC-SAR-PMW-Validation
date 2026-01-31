@@ -1,0 +1,30 @@
+RandomForest classifier S1A_ClassifiedOutput(AntarcticLandmassSeaIceOpenWater)_20250329
+
+Cross Validation
+Number of classes = 3
+   class 0.0: Antarctic Landmass       
+    accuracy = 0.9788 precision = 0.9710 correlation = 0.9532 errorRate = 0.0212
+    TruePositives = 1608.0000 FalsePositives = 48.0000 TrueNegatives = 3286.0000 FalseNegatives = 58.0000
+   class 1.0: Sea Ice                  
+    accuracy = 0.9830 precision = 0.9714 correlation = 0.9625 errorRate = 0.0170
+    TruePositives = 1630.0000 FalsePositives = 48.0000 TrueNegatives = 3285.0000 FalseNegatives = 37.0000
+   class 2.0: Open Water               
+    accuracy = 0.9910 precision = 0.9868 correlation = 0.9799 errorRate = 0.0090
+    TruePositives = 1644.0000 FalsePositives = 22.0000 TrueNegatives = 3311.0000 FalseNegatives = 23.0000
+
+Using Testing dataset, % correct predictions = 97.6400
+Total samples = 10000
+RMSE = 0.2083266665599966
+Bias = 0.0018000000000000238
+
+Distribution:
+   class 0.0: Antarctic Landmass         3332	 (33.3200%)
+   class 1.0: Sea Ice                    3334	 (33.3400%)
+   class 2.0: Open Water                 3334	 (33.3400%)
+
+Testing feature importance score:
+Each feature is perturbed 3 times and the % correct predictions are averaged
+The importance score is the original % correct prediction - average
+   rank 1   feature 1  : Sigma0_HH_db             score: tp=0.6634 accuracy=0.4423 precision=0.6655 correlation=0.5716 errorRate=-0.4423 cost=-2.0284 GainRatio = 0.5388
+
+
